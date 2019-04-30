@@ -1,3 +1,4 @@
+
 .force{
 	margin-top: 10px;
 	color: #00C78C;
@@ -192,6 +193,9 @@ media bowlandi*/
 	.gridd{
 		grid-template-columns: 90%
 	}
+	#mma {
+		margin: 2% 40%;
+	}
 }
 /*
 aboutdigi team*/
@@ -232,7 +236,9 @@ aboutdigi team*/
 
 .griid{
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%
+	grid-template-columns: 25% 25% 25% 25%;
+	width: 89%;
+	margin-left: 5%;
 }
 .png:hover{
 	filter: grayscale(100%);
@@ -278,15 +284,15 @@ aboutdigi team*/
 .png:hover{
 	transform: scale(1.2);
 }
-/*.png{
+.png{
 	background-size: cover;
 	background-position: center;
 }
 
 .two .ktn{
 	position: relative;
-	margin-left: 12%;
-	margin-top: -8%;
+	margin-left: 45%;
+	margin-top: -30%;
 	transform: translate(-50%, -50%);
 	-ms-transform:translate(-50%, -50%);
 	background-color: black;
@@ -304,5 +310,27 @@ aboutdigi team*/
 .two:hover .ktn{
 	display: block;
 }
-*/
+
+
+@media(max-width:1100px){
+	.griid{
+		grid-template-columns: 33% 33% 33%;
+	}
+}
+@media(max-width:852px){
+	.griid{
+		grid-template-columns: 45% 45%;
+	}
+}
+@media(max-width:700px){
+	.griid{
+		grid-template-columns: 95%;
+	}
+}
+
+@media(max-width: 1000px){
+	#man img{	
+		bottom: 0px;
+	}
+}
 
